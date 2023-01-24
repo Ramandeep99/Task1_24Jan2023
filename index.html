@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Task 1</title>
+
+    <style>
+            body{
+            margin: 0%;
+            padding: 0%;
+        }
+        ul {
+            list-style-type: none;
+            overflow: hidden;
+            margin: 0%;
+            padding: 0px 40px 0px 40px;
+            background-color: rgb(159, 158, 158);
+            box-shadow: 6px 3px 5px rgb(63, 63, 63);
+        }
+        
+        li {
+            padding-left: 40px;
+            float: left;
+            vertical-align:auto;
+        }
+        
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 17px 16px;
+            text-decoration: none;
+        }
+
+        #logo {
+            padding: 10px;
+            border-radius: 25px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            column-gap: 80px;
+            padding: 50px 70px 30px 70px;
+        }
+        .grid-item {
+            background-color: rgba(179, 176, 176, 0.8);      
+        }
+    
+        div span {
+            font-size: medium;
+            text-align: left;
+            background-color: rgb(92, 91, 91);
+            line-height: normal;
+        }
+
+        footer {
+        text-align: center;
+        padding: 3px;
+        background-color: rgb(159, 158, 158);
+        color: rgb(38, 36, 36);
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        }
+
+    .boxImg{
+        width: 100%;
+        height: 200px;
+        padding-bottom: 30px;
+    }
+
+    .example{
+        padding: 17px 16px;
+    }
+    .searchBtn {
+        border-radius: 7px;
+    }
+    </style>
+
+</head>
+<body>
+
+    <ul>
+        <li> <img src="pb.png" alt="logo" width="100px" height="30px" id="logo"> </li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li style="float:right">
+            <form class="example" action="#" style="max-width:300px">
+                <input class="searchBtn" type="text" name="search2">
+                <button class="searchBtn" type="submit">Search</button>
+          </form>
+        </li>
+    </ul>
+
+        
+    <div class="grid-container">
+        <div class="grid-item">
+            <img class="boxImg" src="img2.png" alt="">
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.  Temporibus veritatis reprehenderit culpa pariatur! Deserunt eveniet eligendi, perferendis tempora libero quod repellendus sapiente reiciendis fugiat, omnis commodi vitae tempore magnam neque. Ut delectus quisquam voluptas facere minus ipsa aliquid nesciunt alias optio in dolore eligendi, harum corporis sunt fugiat at temporibus ea atque.</span>
+        </div>
+        <div class="grid-item">
+            <img class="boxImg" src="img1.png" alt="">
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.m ectetur adipisicing elit. Iste quod assumenda ex dolores omnis soluta, cupiditate autem officia explicabo quo nihil velit molestiae quia quos nisi voluptatem atque! Accusantium, quia? a aliquid nesciunt alias optio in dolore eligendi, harum corporis sunt fugiat at temporibus ea atque.</span>
+        
+        </div>
+        <div class="grid-item">
+            <img class="boxImg" src="img3.jpg" alt="">
+            <span>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet cs totam sit et nisi atque eveniet distinctio a aliquid commodi natus, voluptatem recusandae tenetur nulla. Numquam. consectetur adipisicing elit. Ut delectus quisquam voluptas facere minus ipsa aliquid nesciunt alias optio in dolore eligendi, harum corporis sunt fugiat at temporibus ea atque.</span>
+        
+        </div>    
+    </div>
+
+    
+    <footer>
+        <p>Author: xyz <br>
+        <a href="mailto:hege@example.com">xyz@example.com</a></p>
+    </footer>
+  
+    
+
+</body>
+</html>
+
